@@ -1,14 +1,15 @@
-import React from 'react'
-import Header from '../Header/Header'
-import Sidebar from '../Sidebar/Sidebar'
+import React from "react";
+import Sidebar from "./Sidebar";
+import TopNav from "./TopNav";
 
-function Layout() {
+function Layout({ children }) {
   return (
-      <div>
-          <Header />
-          <Sidebar />
+    <div>
+      <TopNav />
+      {/* <Sidebar /> */}
+      {/* <main>{children}</main> */}
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

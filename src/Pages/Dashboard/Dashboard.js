@@ -5,7 +5,8 @@ import "./Dashboard.scss";
 function Dashboard() {
   return (
     <div>
-     <Layout />
+      <Layout />
+      
     
     </div>
   );
