@@ -25,7 +25,7 @@ function TopNav() {
         <div className="search-box">
           <input type="search" placeholder="Search for anything" />
           <div className="search-icon">
-            <img src={searchIcon} alt="icon" className="icon" />
+            {/* <img src={searchIcon} alt="icon" className="icon" /> */}
           </div>
         </div>
         <div className="right">
