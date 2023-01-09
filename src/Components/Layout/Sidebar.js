@@ -29,9 +29,8 @@ function Sidebar() {
   // const { menu } = useContext(AppContext);
   return (
     <div
-      
-      // className={`sidebar ${menu ? "" : "inactive"}`}
-    
+
+    // className={`sidebar ${menu ? "" : "inactive"}`}
     >
       <div className="nav-group">
         <div className="nav">
@@ -136,12 +135,12 @@ function Sidebar() {
           <img src={wheel} alt="user" />
           <p>Systems Messages</p>
         </div>
-        {/* <Link to="/"> */}
+        {/* <Link to="/">
           <div className="nav logout">
             <img src={logout} alt="user" />
             <p>Logout</p>
           </div>
-        {/* </Link> */}
+        </Link> */}
         <p className="nav version">v1.2.0</p>
       </div>
     </div>
