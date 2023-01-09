@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
-import logo from "../../Assets/logo.png";
-import searchIcon from "../../Assets/search.png";
-import bell from "../../Assets/bell.png";
-import avatar from "../../Assets/avatar.png";
-import dropdown from "../../Assets/dropdown.png";
+import logo from "../../Assets/logo.svg";
+import searchIcon from "../../Assets/search.svg";
+import bell from "../../Assets/bell.svg";
+import avatar from "../../Assets/avatar.svg";
+import dropdown from "../../Assets/dropdown.svg";
 import "../../Pages/Dashboard/Dashboard.scss";
 import AppContext from "../../Context/Context";
 
