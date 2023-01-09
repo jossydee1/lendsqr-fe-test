@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import logo from "../../Assets/logo.png";
-import searchIcon from "../../Assets/TopNav/search.png";
-import bell from "../../Assets/TopNav/bell.png";
-import avatar from "../../Assets/TopNav/avatar.png";
-import dropdown from "../../Assets/TopNav/dropdown.png";
+// import searchIcon from "../../Assets/TopNav/search.png";
+// import bell from "../../Assets/TopNav/bell.png";
+// import avatar from "../../Assets/TopNav/avatar.png";
+// import dropdown from "../../Assets/TopNav/dropdown.png";
 import "../../Pages/Dashboard/Dashboard.scss";
 import AppContext from "../../Context/Context";
 
@@ -25,19 +25,19 @@ function TopNav() {
         <div className="search-box">
           <input type="search" placeholder="Search for anything" />
           <div className="search-icon">
-            <img src={searchIcon} alt="icon" className="icon" />
+            {/* <img src={searchIcon} alt="icon" className="icon" /> */}
           </div>
         </div>
         <div className="right">
           {!phoneSize && (
             <>
               <p className="docs">Docs</p>
-              <img src={bell} alt="bell" className="bell" />
+              {/* <img src={bell} alt="bell" className="bell" /> */}
             </>
           )}
-          <img src={avatar} alt="avatar" className="avatar" />
+          {/* <img src={avatar} alt="avatar" className="avatar" /> */}
           <p className="admin">Adedeji</p>
-          <img src={dropdown} alt="icon" className="dropdown" />
+          {/* <img src={dropdown} alt="icon" className="dropdown" /> */}
         </div>
       </div>
     </div>
