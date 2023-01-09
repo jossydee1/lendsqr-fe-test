@@ -32,12 +32,12 @@ function TopNav() {
           {!phoneSize && (
             <>
               <p className="docs">Docs</p>
-              <img src={bell} alt="bell" className="bell" />
+              {/* <img src={bell} alt="bell" className="bell" /> */}
             </>
           )}
-          <img src={avatar} alt="avatar" className="avatar" />
+          {/* <img src={avatar} alt="avatar" className="avatar" /> */}
           <p className="admin">Adedeji</p>
-          <img src={dropdown} alt="icon" className="dropdown" />
+          {/* <img src={dropdown} alt="icon" className="dropdown" /> */}
         </div>
       </div>
     </div>
