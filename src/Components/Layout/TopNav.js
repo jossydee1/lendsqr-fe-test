@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import logo from "../../Assets/logo.png";
-import searchIcon from "../../Assets/TopNav/search.svg";
+// import searchIcon from "../../Assets/TopNav/search.svg";
 import bell from "../../Assets/TopNav/bell.svg";
 import avatar from "../../Assets/TopNav/avatar.svg";
 import dropdown from "../../Assets/TopNav/dropdown.svg";
