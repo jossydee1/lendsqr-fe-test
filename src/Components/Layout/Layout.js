@@ -1,5 +1,5 @@
 import React from "react";
-import Sidebar from "./Sidebar";
+// import Sidebar from "./Sidebar";
 import TopNav from "./TopNav";
 
 function Layout({ children }) {
@@ -7,7 +7,7 @@ function Layout({ children }) {
     <div>
       <TopNav />
       {/* <Sidebar /> */}
-      {/* <main>{children}</main> */}
+      <main>{children}</main>
     </div>
   );
 }
