@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './Sidebar.scss'
 import briefcase from "../../Assets/Sidebar/briefcase.svg";
 import user from "../../Assets/Sidebar/user-friends 1.svg";
 import dropdown from "../../Assets/Sidebar/np_next.svg";
@@ -23,14 +24,14 @@ import slider from "../../Assets/Sidebar/sliders-h 1.svg";
 import clipboard from "../../Assets/Sidebar/clipboard-list 1.svg";
 import wheel from "../../Assets/Sidebar/tire 1.svg";
 import logout from "../../Assets/Sidebar/sign-out 1.svg";
-// import { useContext } from "react";
-// import AppContext from "../../Context/Context";
+import { useContext } from "react";
+import AppContext from "../../Context/Context";
 function Sidebar() {
   // const { menu } = useContext(AppContext);
   return (
     <div
-
-    // className={`sidebar ${menu ? "" : "inactive"}`}
+      // className="menu"
+      // className={`sidebar ${menu ? "" : "inactive"}`}
     >
       <div className="nav-group">
         <div className="nav">
@@ -135,12 +136,12 @@ function Sidebar() {
           <img src={wheel} alt="user" />
           <p>Systems Messages</p>
         </div>
-        {/* <Link to="/">
+        <Link to="/" className="link">
           <div className="nav logout">
             <img src={logout} alt="user" />
             <p>Logout</p>
           </div>
-        </Link> */}
+        </Link>
         <p className="nav version">v1.2.0</p>
       </div>
     </div>

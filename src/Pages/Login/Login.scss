@@ -1,5 +1,5 @@
 .login {
-  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   background-color: #fff;
 
@@ -26,7 +26,6 @@
     justify-content: flex-start;
     background-color: #fff;
     box-shadow: 0px 15px 90px rgba(0, 0, 0, 0.03);
-    height: 100vh;
     flex-basis: 50%;
     padding: 12rem 6rem;
   }

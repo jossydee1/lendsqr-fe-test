@@ -4,7 +4,7 @@ import searchIcon from "../../Assets/search.svg";
 import bell from "../../Assets/bell.svg";
 import avatar from "../../Assets/avatar.svg";
 import dropdown from "../../Assets/dropdown.svg";
-import "../../Pages/Dashboard/Dashboard.scss";
+// import "../../Pages/Dashboard/Dashboard.scss";
 import AppContext from "../../Context/Context";
 
 function TopNav() {

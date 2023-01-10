@@ -2,6 +2,7 @@ import React from "react";
 import "./Login.scss";
 import logo from "../../Assets/logo.png";
 import canva from "../../Assets/canva.png";
+import { Link } from "react-router-dom";
 
 function Login() {
   // BEM
@@ -53,7 +54,9 @@ function Login() {
               />
             </div>
             <span>Forgot password?</span>
-            <button onClick={handleSubmit}>Log In</button>
+            <Link to="/dashboard">
+              <button>Log In</button>
+            </Link>
           </form>
         </div>
       </div>
